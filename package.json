@@ -1,6 +1,6 @@
 {
   "name": "@r3ps4j/tstl-external-no-self",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for TSTL which adds the noSelfInFile tag to external libraries",
   "main": "lib/index.js",
   "scripts": {
