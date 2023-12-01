@@ -1,6 +1,6 @@
 # TSTL External No Self
 
-![npm](https://img.shields.io/npm/v/@r3ps4j/tstl-force-no-self)
+![npm](https://img.shields.io/npm/v/@r3ps4j/tstl-external-no-self)
 
 Plugin for [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) which allows you to put the `@noSelfInFile` in external libraries.
 
@@ -9,7 +9,7 @@ Plugin for [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua)
 1. Install the package from npm:
 
     ```bash
-    npm i -D @r3ps4j/tstl-force-no-self
+    npm i -D @r3ps4j/tstl-external-no-self
     ```
 
 2. Add the plugin to your `tsconfig.json`:
@@ -18,7 +18,7 @@ Plugin for [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua)
         "tstl": {
             "luaPlugins": [
                 {
-                    "name": "@r3ps4j/tstl-force-no-self"
+                    "name": "@r3ps4j/tstl-external-no-self"
                 }
             ]
         }
@@ -30,7 +30,7 @@ Plugin for [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua)
         "tstl": {
             "luaPlugins": [
                 {
-                    "name": "@r3ps4j/tstl-force-no-self",
+                    "name": "@r3ps4j/tstl-external-no-self",
                     "targets": [
                         "@somescope/somelibrary", // Works
                         "somelibrary/file.d.ts" // Also works
