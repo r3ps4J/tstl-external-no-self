@@ -30,7 +30,7 @@ function shouldAddNoSelfToFile(fileName: string, targets: string[]): boolean {
 class Plugin implements tstl.Plugin {
     public beforeTransform(program: ts.Program, options: tstl.CompilerOptions, emitHost: tstl.EmitHost) {
         const luaPlugin = options.luaPlugins!.find((value) => {
-            return value.name == "@r3ps4j/tstl-force-no-self";
+            return value.name == "@r3ps4j/tstl-external-no-self";
         });
 
         if (luaPlugin?.targets != undefined) {
