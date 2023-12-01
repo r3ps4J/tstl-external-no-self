@@ -1,0 +1,39 @@
+{
+  "name": "@r3ps4j/tstl-external-no-self",
+  "version": "1.0.0",
+  "description": "Plugin for TSTL which adds the noSelfInFile tag to external libraries",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc",
+    "watch": "npm run prepare -- --watch",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r3ps4J/tstl-force-no-self.git"
+  },
+  "keywords": [
+    "typescript",
+    "lua",
+    "tstl"
+  ],
+  "author": "r3ps4J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r3ps4J/tstl-force-no-self/issues"
+  },
+  "homepage": "https://github.com/r3ps4J/tstl-force-no-self#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.2.2",
+    "typescript-to-lua": "^1.22.0"
+  }
+}
