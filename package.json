@@ -35,5 +35,8 @@
     "prettier": "^3.1.0",
     "typescript": "^5.2.2",
     "typescript-to-lua": "^1.22.0"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
